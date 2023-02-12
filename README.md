@@ -1,1 +1,0 @@
-# GuTrend_v2
