@@ -2,99 +2,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Yeseva+One&display=swap');
 
 
-.d-flex {
-    display: flex;
+*{
+    box-sizing: border-box;
 }
 
-* {
-    padding: 0;
-    margin: 0;
+html{
+    font-size: 62.5%;
 }
 
+body{
+font-family: 'Roboto', sans-serif;
+font-size: 1.6rem;
+line-height: 1.5;
+text-rendering: optimizeSpeed;
 
-
-body {
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    color: #a09e9c;
-    background: #fff;
-    text-transform: capitalize;
-    max-width: 1920px;
-    margin: 0 auto;
-    overflow-x: hidden;
-}
-
-a,
-a:hover,
-a:active,
-a:focus {
-    display: inline-block;
-    text-decoration: none;
-    color: #616060;
-    font-size: 16px;
-    padding: 0;
-    font-weight: 500;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    margin: 0;
-    color: #5f5b57;
-    font-size: 18px;
-    font-weight: 500;
-}
-
-p {
-    margin: 0;
-    color: #a09e9c;
-    font-size: 16px;
-    line-height: 1.8;
-}
-
-img {
-    border: none;
-    max-width: 100%;
-    height: auto;
-}
-
-ul {
-    padding: 0;
-    margin: 0 auto;
-    list-style: none;
-}
-
-ul li {
-    list-style: none;
-
-}
-
-select,
-input,
-textarea,
-button {
-    box-shadow: none;
-    outline: 0 !important;
-}
-
-button {
-    background: transparent;
-    border: 0;
-}
-
-html,
-body {
-    height: 100%;
-}
-
-[placeholder]:focus::-webkit-input-placeholder {
-    -webkit-transition: opacity 0.3s 0.3s ease;
-    -moz-transition: opacity 0.3s 0.3s ease;
-    -ms-transition: opacity 0.3s 0.3s ease;
-    -o-transition: opacity 0.3s 0.3s ease;
-    transition: opacity 0.3s 0.3s ease;
-    opacity: 0;
 }
